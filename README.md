@@ -4,7 +4,7 @@ This microservice can be used to get the url's of the first 15 images returned b
 # Connecting:
 This microservice uses a socket pipeline. It is intended to be run locally. Your client program's socket must connect to the microservice's host and port.
 
-Request format
+# Request format
 
 The service expects to receive a utf-8 encoded json-serialized messages. A message must have the following format:
 {"query":"(insert the query that you want to search for here)"}
@@ -12,7 +12,7 @@ ex: {"query": "dog"}
 
 Right now query is the only parameter, but more parameters may be added in the future.
 
-Response format
+# Response format
 
 A response is also a json-serialized message in the following format: 
 {"(imgquery#)":"image url"}
