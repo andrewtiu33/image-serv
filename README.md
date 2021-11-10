@@ -2,7 +2,7 @@
 This microservice can be used to get the url's of the first 15 images returned by a query on Bing.
 
 # Connecting:
-This microservice uses a socket pipeline. It is intended to be run locally. Your client program's socket must connect to the microservice's host and port.
+This microservice uses a socket pipeline. It is intended to be run locally. Your client program's socket must connect to the microservice's host and port. Make sure to have the server file in the same directory as your client.
 
 # Request format
 
