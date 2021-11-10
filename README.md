@@ -1,7 +1,7 @@
 # imgscraper
 This microservice can be used to get the url's of the first 15 images returned by a query on Bing.
 
-Connecting:
+# Connecting:
 This microservice uses a socket pipeline. It is intended to be run locally. Your client program's socket must connect to the microservice's host and port.
 
 Request format
