@@ -21,6 +21,6 @@ A response is also a json-serialized message in the following format:
 {"(imgquery#)":"image url"}
 
 where the imgquery# is the number out of 15 images an the image url is the url link to the image.
-An example of a use case for these image URL's returned is that they can be retrieved in a program and set to display on as the img-source in a web app.
+An example of a use case for these image URL's returned is that they can be retrieved in a program and set to display as the img-source in a web app.
 
 The file testclient.py shows an example of how a client could interact with the server.
