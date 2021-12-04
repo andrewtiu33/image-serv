@@ -8,7 +8,7 @@ def runClient():
     c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     c.connect((host, port))
 
-    message = {"query":"dog"}
+    message = {"query":"egg"}
     request = json.dumps(message)
 
     c.send(request.encode("utf-8"))

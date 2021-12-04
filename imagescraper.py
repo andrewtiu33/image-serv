@@ -28,9 +28,10 @@ def runImageScraper():
 
         # make the bing search based on the user's inputs
         bingsearch = "https://bing.com/images/search?q=" + query
+        print(bingsearch)
         
         # use a user agent to search
-        user_agent = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0'}
+        user_agent = {'User-Agent': 'Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)'}
         bingresponse = requests.get(bingsearch, headers=user_agent)
  
         # use beautiful soup to find images related to that query and save them to a dict object
